@@ -1,0 +1,46 @@
+{
+  "model": "XGBoost",
+  "best_params": {
+    "colsample_bytree": 1.0,
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "n_estimators": 500,
+    "subsample": 0.8
+  },
+  "cv_best_auc": 0.7604714224918417,
+  "threshold_tuning": {
+    "mode": "f1",
+    "min_precision": null,
+    "min_recall": null,
+    "step": 0.01,
+    "selected_threshold": 0.24
+  },
+  "val_metrics": {
+    "Accuracy": 0.7291673004959079,
+    "Precision": 0.4071138604291514,
+    "Recall": 0.6034383954154727,
+    "F1_Score": 0.48620570241255917,
+    "AUC_ROC": 0.7576859650208223,
+    "Threshold": 0.24,
+    "TN": 19755,
+    "FP": 6134,
+    "FN": 2768,
+    "TP": 4212,
+    "Type1_Error_Rate": 0.236934605430878,
+    "Type2_Error_Rate": 0.39656160458452716
+  },
+  "test_metrics": {
+    "Accuracy": 0.7305723694298211,
+    "Precision": 0.40858592946019273,
+    "Recall": 0.6006773716604201,
+    "F1_Score": 0.48635142471359566,
+    "AUC_ROC": 0.7599133354844317,
+    "Threshold": 0.24,
+    "TN": 165175,
+    "FP": 50573,
+    "FN": 23227,
+    "TP": 34939,
+    "Type1_Error_Rate": 0.2344077349500343,
+    "Type2_Error_Rate": 0.3993226283395798
+  }
+}

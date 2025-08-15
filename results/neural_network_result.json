@@ -1,0 +1,46 @@
+{
+  "model": "Neural Network",
+  "best_params": {
+    "alpha": 0.0001,
+    "hidden_layer_sizes": [
+      128
+    ],
+    "learning_rate_init": 0.001
+  },
+  "cv_best_auc": 0.7551095864473379,
+  "threshold_tuning": {
+    "mode": "f1",
+    "min_precision": null,
+    "min_recall": null,
+    "step": 0.01,
+    "selected_threshold": 0.25
+  },
+  "val_metrics": {
+    "Accuracy": 0.7353129088198607,
+    "Precision": 0.41188524590163933,
+    "Recall": 0.5759312320916905,
+    "F1_Score": 0.48028673835125446,
+    "AUC_ROC": 0.754885343101876,
+    "Threshold": 0.25,
+    "TN": 20149,
+    "FP": 5740,
+    "FN": 2960,
+    "TP": 4020,
+    "Type1_Error_Rate": 0.2217157866275252,
+    "Type2_Error_Rate": 0.4240687679083094
+  },
+  "test_metrics": {
+    "Accuracy": 0.7463291398030039,
+    "Precision": 0.4257777661193012,
+    "Recall": 0.5581095485335076,
+    "F1_Score": 0.4830444163380701,
+    "AUC_ROC": 0.7569327150496233,
+    "Threshold": 0.25,
+    "TN": 171967,
+    "FP": 43781,
+    "FN": 25703,
+    "TP": 32463,
+    "Type1_Error_Rate": 0.20292656247103102,
+    "Type2_Error_Rate": 0.4418904514664925
+  }
+}

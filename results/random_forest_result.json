@@ -1,0 +1,46 @@
+{
+  "model": "Random Forest",
+  "best_params": {
+    "class_weight": null,
+    "max_depth": 8,
+    "max_features": "sqrt",
+    "min_samples_leaf": 20,
+    "n_estimators": 100
+  },
+  "cv_best_auc": 0.7500759126799819,
+  "threshold_tuning": {
+    "mode": "f1",
+    "min_precision": null,
+    "min_recall": null,
+    "step": 0.01,
+    "selected_threshold": 0.25
+  },
+  "val_metrics": {
+    "Accuracy": 0.7231129635827072,
+    "Precision": 0.3962430290578221,
+    "Recall": 0.5802292263610315,
+    "F1_Score": 0.47090285448520436,
+    "AUC_ROC": 0.7444855328473632,
+    "Threshold": 0.25,
+    "TN": 19718,
+    "FP": 6171,
+    "FN": 2930,
+    "TP": 4050,
+    "Type1_Error_Rate": 0.23836378384642126,
+    "Type2_Error_Rate": 0.4197707736389684
+  },
+  "test_metrics": {
+    "Accuracy": 0.7370342516264229,
+    "Precision": 0.413108877134047,
+    "Recall": 0.5666024825499433,
+    "F1_Score": 0.4778315838311199,
+    "AUC_ROC": 0.7511690723027556,
+    "Threshold": 0.25,
+    "TN": 168927,
+    "FP": 46821,
+    "FN": 25209,
+    "TP": 32957,
+    "Type1_Error_Rate": 0.21701707547694532,
+    "Type2_Error_Rate": 0.4333975174500567
+  }
+}

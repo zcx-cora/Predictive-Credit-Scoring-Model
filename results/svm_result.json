@@ -1,0 +1,44 @@
+{
+  "model": "SVM",
+  "best_params": {
+    "C": 0.5,
+    "class_weight": "balanced",
+    "gamma": "scale"
+  },
+  "cv_best_auc": 0.7430776776024709,
+  "threshold_tuning": {
+    "mode": "f1",
+    "min_precision": null,
+    "min_recall": null,
+    "step": 0.01,
+    "selected_threshold": 0.47000000000000003
+  },
+  "val_metrics": {
+    "Accuracy": 0.6627825610757857,
+    "Precision": 0.34594594594594597,
+    "Recall": 0.6601719197707736,
+    "F1_Score": 0.45399014778325125,
+    "AUC_ROC": 0.7202127033186977,
+    "Threshold": 0.47000000000000003,
+    "TN": 17177,
+    "FP": 8712,
+    "FN": 2372,
+    "TP": 4608,
+    "Type1_Error_Rate": 0.3365135771949477,
+    "Type2_Error_Rate": 0.33982808022922634
+  },
+  "test_metrics": {
+    "Accuracy": 0.6961089977146112,
+    "Precision": 0.37680561287659925,
+    "Recall": 0.6592511088952309,
+    "F1_Score": 0.47952879973988943,
+    "AUC_ROC": 0.7503223478461211,
+    "Threshold": 0.47000000000000003,
+    "TN": 152328,
+    "FP": 63420,
+    "FN": 19820,
+    "TP": 38346,
+    "Type1_Error_Rate": 0.29395405751154124,
+    "Type2_Error_Rate": 0.34074889110476914
+  }
+}

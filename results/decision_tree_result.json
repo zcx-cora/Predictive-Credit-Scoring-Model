@@ -1,0 +1,44 @@
+{
+  "model": "Decision Tree",
+  "best_params": {
+    "class_weight": null,
+    "max_depth": 8,
+    "min_samples_leaf": 1
+  },
+  "cv_best_auc": 0.7355184518081849,
+  "threshold_tuning": {
+    "mode": "f1",
+    "min_precision": null,
+    "min_recall": null,
+    "step": 0.01,
+    "selected_threshold": 0.2
+  },
+  "val_metrics": {
+    "Accuracy": 0.6816148954942347,
+    "Precision": 0.36081156641904305,
+    "Recall": 0.647134670487106,
+    "F1_Score": 0.4633058105543874,
+    "AUC_ROC": 0.7347711316806455,
+    "Threshold": 0.2,
+    "TN": 17887,
+    "FP": 8002,
+    "FN": 2463,
+    "TP": 4517,
+    "Type1_Error_Rate": 0.309088802193982,
+    "Type2_Error_Rate": 0.35286532951289395
+  },
+  "test_metrics": {
+    "Accuracy": 0.6854779237278854,
+    "Precision": 0.36332558457541364,
+    "Recall": 0.6395144930027852,
+    "F1_Score": 0.46338789645464284,
+    "AUC_ROC": 0.7375625925728071,
+    "Threshold": 0.2,
+    "TN": 150564,
+    "FP": 65184,
+    "FN": 20968,
+    "TP": 37198,
+    "Type1_Error_Rate": 0.3021302630847099,
+    "Type2_Error_Rate": 0.3604855069972149
+  }
+}
