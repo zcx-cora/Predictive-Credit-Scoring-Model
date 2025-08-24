@@ -6,14 +6,13 @@ This repository contains the full codebase for an MSc thesis project on developi
 
 | File/Folder                             | Description |
 |----------------------------------------|-------------|
-| `0_DataTreatment.ipynb`                | Final version of data cleaning and preprocessing |
-| `0_DataTreatment_V0.ipynb`             | Initial version of data treatment |
+| `0_DataTreatment.ipynb`                | version 1 of data cleaning and preprocessing |
+| `0_DataTreatment_V0.ipynb`             | version 2 of data treatment |
 | `1_EDA.ipynb`                          | Exploratory Data Analysis |
-| `2_BasicModel.ipynb`                   | Baseline model for the behavioral scoring task |
 | `2_NewClient_BasicModel.ipynb`         | Baseline model for the application scoring task |
 | `2_NewClient_ablation study.ipynb`     | Ablation study on new client features |
 | `3_NewClient_Model_topK.ipynb`         | Top-K SHAP-based model for application scoring |
-| `4_All_client_BasicModel.ipynb`        | Full-sample baseline model |
+| `4_All_client_BasicModel.ipynb`        | Baseline model for the application task |
 | `5_AllClient_topK.ipynb`               | Top-K SHAP-based model for all clients |
 | `LCDataDictionary.xlsx`                | Variable descriptions for the Lending Club dataset |
 | `README.md`                            | Project overview and usage instructions |
